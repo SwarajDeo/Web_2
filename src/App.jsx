@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 import {
   AnimatePresence,
   motion,
@@ -10,7 +10,6 @@ import {
 import {
   ArrowUpRight,
   ChevronRight,
-  Instagram,
   Linkedin,
   Mail,
   Menu,
@@ -32,8 +31,7 @@ const navItems = [
 ]
 
 const profileLinks = {
-  linkedin: 'https://www.linkedin.com/',
-  instagram: 'https://www.instagram.com/',
+  linkedin: 'https://www.linkedin.com/in/sandhya-kumari-a25672223/',
   email: 'rajsandhya091@gmail.com',
   phone: '+917488680819'
 }
@@ -115,12 +113,12 @@ const featuredExperience = {
   period: 'Jan 2026 - Present',
   image: '/images/sandhya-industry-event.jpeg',
   summary:
-    'Currently supporting export-ready sampling and merchandising workflows: buyer requirements, style updates, approvals, fabric and trims follow-up, order tracking, reporting, and delivery coordination.',
+    'In my current role, I support export-ready sampling and merchandising workflows: buyer requirements, style updates, approvals, fabric and trims follow-up, order tracking, reporting, and delivery coordination.',
   strengths: [
-    'Buyer and internal team coordination',
-    'Sampling timelines and approval follow-up',
-    'TNA calendar support and issue resolution',
-    'Production, quality, and dispatch communication'
+    'I coordinate with buyers and internal teams',
+    'I track sampling timelines and approvals',
+    'I support TNA calendars and resolve sampling issues',
+    'I communicate with production, quality, and dispatch teams'
   ]
 }
 
@@ -131,8 +129,8 @@ const timeline = [
     location: 'Gurugram',
     role: 'Merchandising Intern',
     body:
-      'Worked across merchandising documentation, tech pack review, sampling coordination, production updates, and purchase order support.',
-    points: ['Reviewed garment construction feasibility', 'Supported TNA and PO coordination', 'Applied SMED thinking to style changeover']
+      'I worked across merchandising documentation, tech pack review, sampling coordination, production updates, and purchase order support.',
+    points: ['I reviewed garment construction feasibility', 'I supported TNA and PO coordination', 'I applied SMED thinking to style changeover']
   },
   {
     period: 'Jun - Jul 2024',
@@ -140,8 +138,8 @@ const timeline = [
     location: 'Bangalore',
     role: 'Apparel Production Intern',
     body:
-      'Studied complete jacket manufacturing operations from fabric inspection and cutting to sewing, finishing, quality control, packaging, and warehouse movement.',
-    points: ['Observed industrial machinery and workflow optimization', 'Worked with RFID-based inventory tracking', 'Mapped production accuracy and QC practices']
+      'I studied complete jacket manufacturing operations from fabric inspection and cutting to sewing, finishing, quality control, packaging, and warehouse movement.',
+    points: ['I observed industrial machinery and workflow optimization', 'I worked with RFID-based inventory tracking', 'I mapped production accuracy and QC practices']
   },
   {
     period: 'Jun 2023',
@@ -149,8 +147,8 @@ const timeline = [
     location: 'Ghaziabad',
     role: 'Textile Intern',
     body:
-      'Gained hands-on exposure to textile manufacturing flow, including weaving, dyeing, printing, finishing, quality evaluation, and industrial process standards.',
-    points: ['Understood textile process flow', 'Assisted in fabric quality evaluation', 'Learned QA standards in export manufacturing']
+      'I gained hands-on exposure to textile manufacturing flow, including weaving, dyeing, printing, finishing, quality evaluation, and industrial process standards.',
+    points: ['I understood textile process flow', 'I assisted in fabric quality evaluation', 'I learned QA standards in export manufacturing']
   }
 ]
 
@@ -160,21 +158,21 @@ const personalityCards = [
     image: '/images/sandhya-dance-wings.jpeg',
     title: 'Movement',
     body:
-      'Dance brings rhythm, posture, confidence, and a trained eye for how fabric moves with the body.'
+      'Dance gives me rhythm, posture, confidence, and a sharper eye for how fabric moves with the body.'
   },
   {
     icon: Sparkles,
     image: '/images/sandhya-swing-night.jpeg',
     title: 'Music',
     body:
-      'Music shapes her moodboard instincts: tempo, color, pauses, drama, and the quiet precision behind a look.'
+      'Music helps me think in tempo, color, pauses, drama, and the quiet precision behind a look.'
   },
   {
     icon: PenLine,
     image: '/images/sandhya-portrait-illustration.jpeg',
     title: 'Creative Arts',
     body:
-      'Sketching, styling, visual storytelling, and trend watching keep her work expressive without losing commercial clarity.'
+      'Sketching, styling, visual storytelling, and trend watching keep my work expressive without losing commercial clarity.'
   }
 ]
 
@@ -322,7 +320,7 @@ function Navbar() {
             href="#contact"
             className="hidden rounded-full bg-ink px-5 py-3 text-xs font-bold uppercase tracking-normal text-porcelain transition hover:bg-oxblood lg:inline-flex"
           >
-            Enquire
+            Connect
           </a>
           <button
             type="button"
@@ -420,7 +418,7 @@ function Hero() {
               </div>
             </div>
             <div className="max-w-sm border-l border-pearl/40 pl-5 text-sm leading-7 text-pearl/78">
-              Blending merchandising logic, production discipline, and a polished creative eye for apparel brands,
+              I bring merchandising logic, production discipline, and a polished creative eye for apparel brands,
               buyers, recruiters, and fashion-led teams.
             </div>
           </div>
@@ -458,15 +456,15 @@ function About() {
           </h2>
           <div className="mt-8 grid gap-6 text-base leading-8 text-mocha sm:grid-cols-2">
             <p>
-              Sandhya Kumari is a NIFT Patna Fashion Technology graduate with hands-on experience in
-              merchandising, sampling coordination, apparel production, buyer communication, and textile process
-              exposure. Her work sits between the studio and the factory floor: creative enough to understand the
-              mood of a collection, structured enough to move it through approvals, timelines, and delivery.
+              I am a Fashion Technology graduate from NIFT Patna with hands-on experience in merchandising,
+              sampling coordination, apparel production, buyer communication, and textile process exposure. I like
+              working at the point where creativity meets execution: understanding the mood of a collection and
+              helping it move through approvals, timelines, and delivery.
             </p>
             <p>
-              She brings a natural interest in fashion trends, styling, dance, music, creative arts, and visual
-              storytelling. That personality gives her portfolio a warmer rhythm while her Excel, reporting,
-              follow-up, TNA, and coordination skills keep the work commercially useful for apparel teams.
+              I am naturally drawn to fashion trends, styling, dance, music, creative arts, and visual storytelling.
+              At the same time, I enjoy the practical side of the industry: Excel, reporting, follow-ups, TNA, and
+              coordination that keep apparel work clear and useful for teams.
             </p>
           </div>
         </Reveal>
@@ -487,8 +485,8 @@ function Skills() {
             </h2>
           </div>
           <p className="max-w-md text-base leading-8 text-mocha">
-            A balanced blend of soft skills, spreadsheet discipline, brand sensitivity, and hands-on apparel workflow
-            exposure.
+            I bring a balance of communication, spreadsheet discipline, brand sensitivity, and hands-on apparel
+            workflow exposure.
           </p>
         </Reveal>
 
@@ -538,8 +536,8 @@ function Experience() {
               Industry experience with export-floor fluency.
             </h2>
             <p className="max-w-2xl text-base leading-8 text-pearl/72">
-              Sandhya's work experience connects buyer communication, sampling discipline, production exposure,
-              textile process knowledge, and documentation habits that apparel recruiters can trust.
+              My work experience connects buyer communication, sampling discipline, production exposure, textile
+              process knowledge, and documentation habits that apparel recruiters can trust.
             </p>
           </div>
         </Reveal>
@@ -618,8 +616,8 @@ function Gallery() {
             </h2>
           </div>
           <p className="text-base leading-8 text-mocha">
-            A visual gallery for recruiters and brands to quickly sense styling range, confidence, cultural references,
-            and image direction.
+            My visual gallery shows my styling range, confidence, cultural references, and image direction for
+            recruiters and fashion brands.
           </p>
         </Reveal>
 
@@ -666,8 +664,8 @@ function Personality() {
             </h2>
           </div>
           <p className="max-w-2xl text-base leading-8 text-mocha">
-            Her interests in dance, music, styling, fashion trends, and creative arts are presented as strengths:
-            they sharpen her eye for movement, detail, and presentation.
+            Dance, music, styling, fashion trends, and creative arts are a real part of how I see fashion. They
+            sharpen my eye for movement, detail, and presentation.
           </p>
         </Reveal>
 
@@ -716,8 +714,8 @@ function Highlights() {
             Projects, leadership, and creative credibility.
           </h2>
           <p className="mt-7 max-w-xl text-base leading-8 text-mocha">
-            A tighter view of the signals that support her professional story: NIFT training, production systems,
-            cultural leadership, publishing, and creative performance.
+            A quick view of the things that shape my professional story: NIFT training, production systems, cultural
+            leadership, publishing, and creative performance.
           </p>
         </Reveal>
 
@@ -752,21 +750,6 @@ function Highlights() {
 }
 
 function Contact() {
-  const [sent, setSent] = useState(false)
-  const mailto = useMemo(
-    () =>
-      `mailto:${profileLinks.email}?subject=${encodeURIComponent(
-        'Portfolio enquiry for Sandhya'
-      )}&body=${encodeURIComponent('Hi Sandhya, I saw your portfolio and would like to connect about ')}`,
-    []
-  )
-
-  const submit = (event) => {
-    event.preventDefault()
-    setSent(true)
-    window.location.href = mailto
-  }
-
   return (
     <section id="contact" className="relative overflow-hidden bg-ink px-5 py-24 text-porcelain sm:px-8 lg:px-10 lg:py-32">
       <img
@@ -783,8 +766,8 @@ function Contact() {
             Let's build the next collection story.
           </h2>
           <p className="mt-7 max-w-xl text-base leading-8 text-pearl/70">
-            Open to fashion merchandising roles, apparel internships, production coordination opportunities, creative
-            styling work, and brand-facing projects.
+            I am open to fashion merchandising roles, production coordination opportunities, creative styling work,
+            and brand-facing projects.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-3">
@@ -796,15 +779,6 @@ function Contact() {
               className="grid h-12 w-12 place-items-center rounded-full border border-white/20 transition hover:border-brass hover:text-brass"
             >
               <Linkedin size={20} />
-            </a>
-            <a
-              href={profileLinks.instagram}
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Open Instagram"
-              className="grid h-12 w-12 place-items-center rounded-full border border-white/20 transition hover:border-brass hover:text-brass"
-            >
-              <Instagram size={20} />
             </a>
             <a
               href={`mailto:${profileLinks.email}`}
@@ -828,22 +802,46 @@ function Contact() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <form onSubmit={submit} className="border border-white/12 bg-white/[0.055] p-6 shadow-editorial backdrop-blur-xl sm:p-9">
-            <div className="grid gap-3 sm:grid-cols-2">
-              <input className="input-line input-dark text-porcelain placeholder:text-pearl/50" name="name" placeholder="Name" required />
-              <input className="input-line input-dark text-porcelain placeholder:text-pearl/50" name="email" type="email" placeholder="Email" required />
+          <div className="border border-white/12 bg-white/[0.055] p-6 shadow-editorial backdrop-blur-xl sm:p-9">
+            <p className="text-xs font-bold uppercase tracking-normal text-brass">Connect With Me</p>
+            <h3 className="mt-4 max-w-2xl font-display text-4xl font-semibold leading-tight sm:text-5xl">
+              For merchandising, sampling, production, and fashion brand roles.
+            </h3>
+            <div className="mt-8 grid gap-4">
+              <a
+                href={profileLinks.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                className="group flex items-center justify-between border border-white/12 bg-porcelain/[0.06] p-5 transition hover:border-brass"
+              >
+                <span>
+                  <span className="block text-xs font-bold uppercase tracking-normal text-pearl/52">LinkedIn</span>
+                  <span className="mt-1 block text-base font-semibold text-pearl/86">Sandhya Kumari</span>
+                </span>
+                <ArrowUpRight size={20} className="text-brass transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+              </a>
+              <a
+                href={`mailto:${profileLinks.email}`}
+                className="group flex items-center justify-between border border-white/12 bg-porcelain/[0.06] p-5 transition hover:border-brass"
+              >
+                <span>
+                  <span className="block text-xs font-bold uppercase tracking-normal text-pearl/52">Email</span>
+                  <span className="mt-1 block text-base font-semibold text-pearl/86">{profileLinks.email}</span>
+                </span>
+                <ArrowUpRight size={20} className="text-brass transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+              </a>
+              <a
+                href={`tel:${profileLinks.phone}`}
+                className="group flex items-center justify-between border border-white/12 bg-porcelain/[0.06] p-5 transition hover:border-brass"
+              >
+                <span>
+                  <span className="block text-xs font-bold uppercase tracking-normal text-pearl/52">Phone</span>
+                  <span className="mt-1 block text-base font-semibold text-pearl/86">{profileLinks.phone}</span>
+                </span>
+                <ArrowUpRight size={20} className="text-brass transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+              </a>
             </div>
-            <input className="input-line input-dark mt-3 text-porcelain placeholder:text-pearl/50" name="role" placeholder="Brand / agency / role" />
-            <textarea className="input-line input-dark mt-3 min-h-36 resize-none text-porcelain placeholder:text-pearl/50" name="message" placeholder="Message" required />
-            <button
-              type="submit"
-              className="mt-8 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-porcelain px-6 text-sm font-bold uppercase tracking-normal text-ink transition hover:bg-brass hover:text-ink"
-            >
-              Compose Inquiry
-              <ArrowUpRight size={17} />
-            </button>
-            {sent && <p className="mt-4 text-sm text-pearl/70">Your email app is opening with a prepared enquiry.</p>}
-          </form>
+          </div>
         </Reveal>
       </div>
     </section>

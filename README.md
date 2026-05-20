@@ -25,8 +25,7 @@ Update `profileLinks` near the top of `src/App.jsx`:
 
 ```js
 const profileLinks = {
-  linkedin: 'https://www.linkedin.com/',
-  instagram: 'https://www.instagram.com/',
+  linkedin: 'https://www.linkedin.com/in/sandhya-kumari-a25672223/',
   email: 'rajsandhya091@gmail.com',
   phone: '+917488680819'
 }
